@@ -25,7 +25,7 @@
 3. Cari DHT sensor library by Adafruit, kemudian instal. Atau dapat melalui link DHT Library dan upload pada libraries di direktori projek. Rename direktori menjadi DHT_sensor_library.
 4. Instal juga library Adafruit unified sensor by Adafruit. Atau dapat melalui link Adafruit Sensor dan upload pada libraries di direktori projek. Rename direktori menjadi Adafruit_Unified_Sensor.
 
-## Percobaan A. MAC Address
+## Percobaan A. MAC Address (MacScanning)
 ### Rangkaian & Instalasi
 1. Siapkan ESP32 dan hubungkan ke Arduino IDE
 2. Download dan jalankan kode dari source code sesuai project.
@@ -33,7 +33,7 @@
 ### Keluaran 
 ![](https://camo.githubusercontent.com/5729ffe8a869f3f29c3c38cd30e6a19b44007cb4f6d9c71fb1f66b45871f7f04/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f313034333436323531393333363939363839342f313034383935303636383835353039313330312f412e5f4d61632e706e67)
 
-## Percobaan B. One-Way Point-to-Point Communication
+## Percobaan B. One-Way Point-to-Point Communication (Simplex Point to Point)
 ### Rangkaian & Instalasi
 1. Siapkan 2 ESP32 yang sudah diketahui Mac Address wifinya.
 ![](https://camo.githubusercontent.com/3087a187ce5a594d4db6b35212c404f04ef685db9550509a9a7c6e0d99f32ee5/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f313034333436323531393333363939363839342f313034383935313930323039373932303039302f422e5f53696d706c65785f5054502e77656270)
@@ -52,7 +52,7 @@
 ### Tugas B No. 8-11
 ![](https://camo.githubusercontent.com/dd3cee4074b9d579f6614e8e3171cd22e35eac828743e183122a8f31d527a5ca/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f313034333436323531393333363939363839342f313034383937353537373831393931303136342f696d6167652e706e67)
 
-## Percobaan C. One-Way, One-to-Many Communication
+## Percobaan C. One-Way, One-to-Many Communication (Simplex Point to Multipoint)
 ### Rangkaian & Instalasi
 1. Siapkan 3 atau lebih ESP32 yang sudah diketahui Mac Address wifinya.
 ![](https://camo.githubusercontent.com/e761413198128d8bbaaae1980d74304009868318135b64cbf1a2df5057a6159a/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f313034333436323531393333363939363839342f313035313334393237323239393332333435322f432e5f53696d706c65785f50544d2e706e67)
@@ -90,7 +90,7 @@
 
 ![](https://camo.githubusercontent.com/543b7791f1dc7164a2b0b6fdf47415ea04d27629fca6e8ea2de228aff85252e2/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f313034333436323531393333363939363839342f313035313335353234383731323735373234382f432e5f53696d706c65785f50544d5f54756761735f33625f536c6176655f332e706e67)
 
-## Percobaan D. One-Way, Many-to-One Communication 
+## Percobaan D. One-Way, Many-to-One Communication (Simplex Multipoint to Point)
 ### Rangkaian & Instalasi
 1. Siapkan 3 atau lebih ESP32 yang sudah diketahui Mac Address wifinya.
 ![](https://camo.githubusercontent.com/7928b0b596db8ff65d56f6340e0eb02b3b597e2df0e67af28947eddc0ce55dc7/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f313034333436323531393333363939363839342f313035313337353330363334303034303830342f442e5f53696d706c65785f4d54502e706e67)
@@ -105,7 +105,7 @@
 
 ![](https://camo.githubusercontent.com/f359abfd9a858e68181fd5e27201aa7b03247bc5dbc73c24c16cb9b50abfb405/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f313034333436323531393333363939363839342f313035313337353330363838393530323832322f442e5f53696d706c65785f4d54505f536c6176652e706e67)
 
-## Percobaan E. One-Way, Many-to-One Communication 
+## Percobaan E. One-Way, Many-to-One Communication (Duplex)
 ### Rangkaian & Instalasi
 1. Siapkan 2 ESP32 yang sudah diketahui Mac Address wifinya.
 ![](https://camo.githubusercontent.com/1f27e0e85b6ec3e12716b1924238519e8823994cb69a609b7e548d8a006cecaa/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f313034333436323531393333363939363839342f313035313338303331373435313230363735362f452e5f4475706c65782e706e67)
