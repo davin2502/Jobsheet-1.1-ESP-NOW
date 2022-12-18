@@ -1,7 +1,7 @@
 # Job 1.1 ESP NOW
 
 ## Alat dan Bahan
-1. ESP32 >4
+1. ESP32 > 4
 2. Arduino IDE (Terinstal ESP32)
 3. Library DHT dan Adafruit unified sensor
 4. Breadboard
