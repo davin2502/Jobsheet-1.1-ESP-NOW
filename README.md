@@ -29,6 +29,7 @@
 ### Rangkaian & Instalasi
 1. Siapkan ESP32 dan hubungkan ke Arduino IDE
 2. Download dan jalankan kode dari source code sesuai project.
-### Keuaran
+
+### Keluaran
 ![]
 (https://camo.githubusercontent.com/5729ffe8a869f3f29c3c38cd30e6a19b44007cb4f6d9c71fb1f66b45871f7f04/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f313034333436323531393333363939363839342f313034383935303636383835353039313330312f412e5f4d61632e706e67)
