@@ -31,6 +31,8 @@
 2. Download dan jalankan kode dari source code sesuai project.
 
 ### Keluaran 
+Mac akan keluar di serial monitor. Pastikan baud rate sama dengan kode.
+
 ![](https://camo.githubusercontent.com/5729ffe8a869f3f29c3c38cd30e6a19b44007cb4f6d9c71fb1f66b45871f7f04/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f313034333436323531393333363939363839342f313034383935303636383835353039313330312f412e5f4d61632e706e67)
 
 ## Percobaan B. One-Way Point-to-Point Communication (Simplex Point to Point)
@@ -52,6 +54,10 @@
 ### Tugas B No. 8-11
 ![](https://camo.githubusercontent.com/dd3cee4074b9d579f6614e8e3171cd22e35eac828743e183122a8f31d527a5ca/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f313034333436323531393333363939363839342f313034383937353537373831393931303136342f696d6167652e706e67)
 
+Percobaan dilakukan di dalam ruangan lab komputer (meja dan kursi) serta terdapat beberapa orang dan ESP32 lain pada ruangan yang sama. Jarak antar ESP adalah 1 meter, 2 meter, 3 meter, 4 meter, dan 5 meter pada ketinggian masing-masing yaitu ground level, 30cm, dan 1m diatas tanah secara LOS (Line of Sight) dan halangan berupa tangan dan buku.
+
+Hasil yang didapatkan dari percobaan adalah 100% diterima dan 0% loss. Hal ini dikarenakan salah satu dari ESP yaitu ESP pengirim adalah seri ESP32U V4 yang memiliki antena eksternal dengan gain +3dB. Sehingga pada jarak 5 meter baik secara LOS maupun diberikan halangan, daya pancar antena sudah lebih dari cukup untuk mengcover keseluruhan area, sehingga penerima dengan mudah menerima sinyal tanpa kerusakan atau rugi-rugi berarti.
+
 ## Percobaan C. One-Way, One-to-Many Communication (Simplex Point to Multipoint)
 ### Rangkaian & Instalasi
 1. Siapkan 3 atau lebih ESP32 yang sudah diketahui Mac Address wifinya.
@@ -66,6 +72,8 @@
 2. Penerima
 
 ![](https://camo.githubusercontent.com/d3fc3bfcf52e4557b1b4e3ab248768b70143e1c50f3daa22afe8c280e1a812a5/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f313034333436323531393333363939363839342f313035313335313331313933393032363939342f432e5f53696d706c65785f50544d5f52656365697665722e706e67)
+
+Percobaan menggunakan 4 board ESP, satu sebagai master dan 3 sebagai slave. Board master akan melakukan broadcast yang pada prinsipnya (code) adalah mengirim data satu per satu ke ESP slaves. MAC dari slaves harus diidentifikasi pada master sebagai address tujuan dan membuat masing-masing peer sehingga master dapat mengirimkan data. Menggunakan fungsi data dan callback event yang sama, maka hasil pada serial monitor berupa data yang sama pada semua slaves.
 
 ### Tugas C No. 9
 ![](https://camo.githubusercontent.com/48135f636f0e68bb0c4dd0443d0dbaf62981e7eb0761655edc2994d86818f2e7/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f313034333436323531393333363939363839342f313035313335323233383532333639393333302f432e5f53696d706c65785f50544d5f54756761735f312e706e67)
